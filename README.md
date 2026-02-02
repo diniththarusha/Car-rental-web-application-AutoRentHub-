@@ -60,74 +60,77 @@ IT-Projects/
 
 ---
 
-## ⚙️ How to Run the Project Locally
 
-### 🧩 Prerequisites
+# Getting Started with Create React App
 
-Make sure you have the following installed:
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-- JDK 8 or higher  
-- Apache Tomcat 9  
-- MySQL Server  
-- Eclipse or VS Code  
-- Git  
+## Available Scripts
 
----
+In the project directory, you can run:
 
-### ▶️ Backend Setup (AutoRentHub-Backend)
+### `npm start`
 
-1. Open the project in **Eclipse** (recommended)  
-2. Import as a **Dynamic Web Project**  
-3. Configure **Apache Tomcat Server**  
-4. Update database credentials inside:
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-DBConnection.java
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
+### `npm test`
 
-5. Create a MySQL database (example name: `autorenthub`)  
-6. Run the SQL scripts to create required tables  
-7. Deploy and run the project on Tomcat  
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Backend will run at:
+### `npm run build`
 
-http://localhost:8080/AutoRentHub
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
----
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### 🌐 Frontend Setup (autorenthub-frontend)
+### `npm run eject`
 
-You can run the frontend in two ways:
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-**Option 1 — Using Live Server (VS Code)**  
-1. Open the `autorenthub-frontend` folder in VS Code  
-2. Install the **Live Server** extension  
-3. Right-click `index.html` → **Open with Live Server**
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-**Option 2 — Through JSP Pages**  
-Frontend pages are also served through backend JSP views when running the Tomcat server.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
----
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## 🗄 Database
+## Learn More
 
-MySQL is used to store:
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-- Users  
-- Vehicles  
-- Bookings  
-- Admin data  
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-⚠️ Make sure the database server is running before starting the backend.
+### Code Splitting
 
----
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-## 📷 Future Improvements
+### Analyzing the Bundle Size
 
-- Online payment integration  
-- Email notifications  
-- Admin analytics dashboard  
-- REST API conversion  
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 ---
 
