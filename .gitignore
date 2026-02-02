@@ -1,0 +1,20 @@
+# Node / Frontend
+node_modules/
+dist/
+build/
+
+# Environment files
+.env
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Java / Backend
+target/
+*.class
+ITP.rar 
+ITP.rar 
